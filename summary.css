@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.125rem;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(221, 100%, 96%);
+}
+body{
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 18px;
+}
+.blueRect{
+    display: inline-grid;
+    place-items: center;
+    width: 360px;
+    min-height: 420px;
+    background: linear-gradient(hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
+    color: white;
+}
+.whiteRect{
+    display: inline-grid;
+    place-items: center;
+    width: 360px;
+    min-height: 420px;
+    background-color: hsl(0, 0%, 100%);
+}
+.continue{
+    display: inline-grid;
+    place-items: center;
+    background: linear-gradient(hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+}
+.rounded{
+    border-radius: 15px;
+}
+.circle{
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+  
+}
+.container{
+    background-color: white;
+    width: 740px;
+    height: 510px;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.circle76{
+    font-size: 3em;
+    position: relative;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+.reaction{
+    display: inline-grid;
+    place-items: center;
+    width: 240px;
+    height: 40px;
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+.reactionL{
+    color: hsl(0, 100%, 67%);
+}
+.memory{
+    display: inline-grid;
+    place-items: center;
+    width: 240px;
+    height: 40px;
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+.memoryL{
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    display: inline-grid;
+    place-items: center;
+    width: 240px;
+    height: 40px;
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+.verbalL{
+    color: hsl(166, 100%, 37%);;
+}
+.visual{
+    display: inline-grid;
+    place-items: center;
+    width: 240px;
+    height: 40px;
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+.visualL{
+    color: hsl(234, 85%, 45%);
+}
+.reaction,
+.memory,
+.verbal,
+.visual {
+    margin: 0.5rem auto;
+    border-radius: 8px;
+    padding-left: 1em;
+    width: 300px;
+    height: 60px;
+    display: flex;
+}
+.reactionR,
+.memoryR
+{
+padding-left: 4em;
+color: black;
+font-weight: bold;
+}
+.verbalR,
+.visualR
+{
+    padding-left: 5em;
+    color: black;
+    font-weight: bold;
+}
+.blueRect header {
+    text-align: center;
+    height: 20%;
+    opacity: 0.8;
+}
+.blueRect footer{
+    height: 70%;
+    text-align: center;
+    opacity: 0.8;
+}
+.blueRect footer p {
+    padding: 0.5rem 3rem 0 3rem;
+    color: hsl(241, 100%, 89%);
+}
+
+.of{
+    opacity: 0.8;
+}
+.great{
+    opacity: 1.0;
+}
+.continue:hover{
+    background: hsl(224, 30%, 27%);
+}
